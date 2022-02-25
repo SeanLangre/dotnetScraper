@@ -13,6 +13,8 @@ namespace WebScraping
             // var scraper = new NoPuppeteerScraper();
             var scraper = new PuppeteerScraper();
             var asd = await scraper.StartScraper();
+            Console.WriteLine("-Done-");
+
 
         }
     }

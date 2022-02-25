@@ -11,4 +11,6 @@
     <PackageReference Include="PuppeteerSharp" Version="6.2.0" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties data_1json__JsonSchema="https://jsonapi.org/schema" /></VisualStudio></ProjectExtensions>
+
 </Project>

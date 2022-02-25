@@ -48,9 +48,6 @@ namespace ScraperSoftware
 
             var list = await page.QuerySelectorAllAsync(".item-card-container");
 
-            //var results = await Task.WhenAll(list.Select(item => item.GetPropertyAsync("outerHTML")));
-            //var htmlList = await Task.WhenAll(results.Select(item => item.JsonValueAsync()));
-
             var tasks = new List<Task<InfoElement>>();
             foreach (var item in list)
             {
@@ -60,21 +57,23 @@ namespace ScraperSoftware
 
             var result = await Task.WhenAll(tasks);
 
+            WriteToCsv(result.Select(r=> r.ToString()).ToList());
+
             return "";
         }
 
         private async Task<InfoElement> GetInfo(ElementHandle element)
         {
             var title = await element.QuerySelectorAsync("a");
-            var realTitle = await title.GetPropertyAsync("title");
+            var realTitle = (await title.GetPropertyAsync("title")).RemoteObject.Value.ToString();
 
             var link = await element.QuerySelectorAsync("a");
-            var realLink = linkPrefix + await link.GetPropertyAsync("href");
+            var realLink = (await link.GetPropertyAsync("href")).RemoteObject.Value.ToString();
 
             var price = await element.QuerySelectorAsync(".item-card-details-price");
-            var realPrice = await price.GetPropertyAsync("textContent");
+            var realPrice = (await price.GetPropertyAsync("textContent")).RemoteObject.Value.ToString();
 
-            var info = new InfoElement(realTitle.ToString(), realLink.ToString(), realPrice.ToString());
+            var info = new InfoElement(realTitle, realLink, realPrice);
             return info;
         }
 
@@ -99,7 +98,8 @@ namespace ScraperSoftware
                 this.price = price;
             }
 
-            public string ToString() {
+            public string ToString()
+            {
                 return this.title + this.link + this.price;
             }
         }

@@ -1,25 +1,21 @@
 using HtmlAgilityPack;
 using System.Net.Http;
-using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Net;
 using System.Text;
-using System.IO;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace ScraperSoftware
 {
-    public class Scraper
+    public class NoPuppeteerScraper
     {
-
-        public Scraper()
+        public NoPuppeteerScraper()
         {
-            this.Start();
+            this.StartScraper();
         }
 
-        public void Start()
+        public void StartScraper()
         {
             string url = "https://en.wikipedia.org/wiki/List_of_programmers";
             var response = CallUrl(url).Result;
@@ -65,7 +61,5 @@ namespace ScraperSoftware
 
             System.IO.File.WriteAllText("links.csv", sb.ToString());
         }
-
-
     }
 }

@@ -1,15 +1,18 @@
 ﻿using System;
+using System.Threading.Tasks;
 using ScraperSoftware;
 
 namespace WebScraping
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
 
-            var scraper = new Scraper();
+            // var scraper = new NoPuppeteerScraper();
+            var scraper = new PuppeteerScraper();
+            var asd = await scraper.StartScraper();
 
         }
     }

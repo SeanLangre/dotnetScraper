@@ -1,4 +1,5 @@
 ﻿using System;
+using ScraperSoftware;
 
 namespace WebScraping
 {
@@ -7,6 +8,9 @@ namespace WebScraping
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var scraper = new Scraper();
+
         }
     }
 }

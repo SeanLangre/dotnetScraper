@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="csvhelper" Version="27.2.1" />
     <PackageReference Include="htmlagilitypack" Version="1.11.42" />
+    <PackageReference Include="PuppeteerSharp" Version="6.2.0" />
   </ItemGroup>
 
 </Project>

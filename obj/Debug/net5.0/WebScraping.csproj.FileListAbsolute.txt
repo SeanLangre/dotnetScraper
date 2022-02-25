@@ -14,3 +14,17 @@ D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.dll
 D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\ref\WebScraping.dll
 D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.pdb
 D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.genruntimeconfig.cache
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\CsvHelper.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\HtmlAgilityPack.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\PuppeteerSharp.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\ICSharpCode.SharpZipLib.dll
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.csproj.CopyComplete

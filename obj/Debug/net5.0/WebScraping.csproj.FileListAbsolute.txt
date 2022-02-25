@@ -1,0 +1,16 @@
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\WebScraping.exe
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\WebScraping.deps.json
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\WebScraping.runtimeconfig.json
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\WebScraping.runtimeconfig.dev.json
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\WebScraping.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\ref\WebScraping.dll
+D:\WORK-RESEARCH\C#\WebScraping\bin\Debug\net5.0\WebScraping.pdb
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.csproj.AssemblyReference.cache
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.AssemblyInfoInputs.cache
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.AssemblyInfo.cs
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.csproj.CoreCompileInputs.cache
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.dll
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\ref\WebScraping.dll
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.pdb
+D:\WORK-RESEARCH\C#\WebScraping\obj\Debug\net5.0\WebScraping.genruntimeconfig.cache
